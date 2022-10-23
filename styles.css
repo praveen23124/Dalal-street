@@ -1,0 +1,263 @@
+
+.sharePrices{
+  padding-left: 50px;
+  padding-right: 10px;
+}
+
+.sharePrices h1{
+ line-height: 0.5;
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 30px;
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+  .sharePrices h1{
+    margin-left: 90px;
+  }
+}
+
+.stcokDiv{
+  background-color: white;
+  border-radius: 15px;
+  line-height: 2;
+  min-width: 100%;
+}
+@media (max-width: 300px) {
+  .indexList{
+    margin-left: 25px;
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .stcokDiv{
+    text-align: center;
+    margin-left: 70px;
+  }
+}
+
+.stcokDiv h6{
+  display: inline-block;
+  font-weight: bolder;
+}
+
+
+
+.stcokDiv:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+  .indices{
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 500px){
+  .indices h6{
+    font-size: 10px;
+  }
+}
+.indices h1{
+  font-family: 'Josefin Sans', sans-serif;
+}
+@media (max-width: 300px) {
+  .indices h1{
+    text-align: center;
+  }
+}
+.indexList{
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+.indexList h6{
+  font-weight: bolder;
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+  .indexList h6{
+    font-size: 10px;
+  }
+}
+
+
+
+.indexList:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.secondContainer{
+ background-color: white;
+}
+.secondContainer h1{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+}
+.todaysShareAction{
+  background-color: white;
+  border-radius: 11px;
+  line-height: 3;
+}
+@media (max-width: 300px) {
+  .todaysShareAction{
+    font-size: 20px;
+  }
+}
+.todaysShareAction:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.todaysShareAction h6{
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.todaysShareAction div{
+  line-height: 0.5;
+  font-weight: bold;
+}
+
+.price{
+margin-top: 60px;
+}
+
+.portfolio{
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+  .portfolio{
+    margin-top: 10px;
+  }
+}
+.invested{
+  line-height: 0;
+  float: left;
+  margin-left: 80px;
+}
+.currentValue{
+  line-height: 0;
+  float: right;
+  margin-right: 80px;
+}
+@media (max-width: 300px) {
+  .invested{
+    margin-left: 25px;
+  }
+}
+@media (max-width: 300px) {
+  .currentValue{
+  margin-right: 25px;
+  }
+}
+.shareName{
+  line-height: 0;
+  float: left;
+  text-align: left;
+  margin-left: 30px;
+}
+.value{
+  line-height: 0;
+  float: right;
+  text-align: right;
+  margin-right: 30px;
+}
+@media (max-width: 300px) {
+  .shareName{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 300px) {
+  .value{
+  margin-right: 0px;
+  }
+}
+.thirdContainer{
+  background-color: white;
+}
+
+.thirdContainer h1{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mutualFundTypes{
+  background-color: white;
+  text-align: center;
+}
+
+.fourthConatainer{
+  background-color: white;
+}
+@media (max-width: 300px) {
+  .fourthConatainer h1{
+  text-align: center;
+  }
+}
+.fourthConatainer h1{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mutualFunds{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.mutualFunds:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.mutualFunds h6{
+  display: inline-block;
+}
+
+.mutualFunds p{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.mutualFunds img{
+  margin-right: 30px;
+}
+.Others{
+  top: 250px;
+}
+.others{
+  background-color: white;
+  border-radius: 5px;
+  width: 75%;
+  margin-left: 100px;
+}
+@media (min-width: 500px) and (max-width: 900px){
+  .others{
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 300px) {
+  .others{
+  width: 100%;
+  margin-left: 0px;
+  }
+}
+@media (max-width: 300px) {
+  .Others{
+    top: 0px;
+  }
+}
+.others h6{
+display: inline-block;
+}
+
+.others:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fithContainer{
+  text-align: center;
+}
